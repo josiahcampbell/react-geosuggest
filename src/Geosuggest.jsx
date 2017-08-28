@@ -30,7 +30,7 @@ class Geosuggest extends React.Component {
       isSuggestsHidden: true,
       isLoading: false,
       userInput: props.initialValue,
-      activeSuggest: null,
+      activeSuggest: false,
       suggests: []
     };
 
